@@ -45,10 +45,10 @@ public class Radio {
         if (currentVolume < 100) {
             currentVolume = currentVolume + 1;
         } else {
-            currentVolume = currentVolume -1;
+            currentVolume = currentVolume - 1;
         }
 
-            this.currentVolume = currentVolume;
+        this.currentVolume = currentVolume;
 
     }
 }
